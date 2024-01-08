@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace islem_class
+{
+    internal class islem
+    {
+        public double sayi1;
+        public double sayi2;
+
+        public double Toplam()
+        {
+            return (sayi1 + sayi2);
+        }
+        public double Fark()
+        {
+         return(sayi1-sayi2);
+        }
+        public double carp()
+        {
+          return (sayi1 * sayi2);
+        }
+        public double böl()
+        {
+          return (sayi1 / sayi2);
+        }
+    }
+}

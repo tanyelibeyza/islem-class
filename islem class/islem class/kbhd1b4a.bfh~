@@ -1,0 +1,168 @@
+﻿namespace islem_class
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtsayi1 = new System.Windows.Forms.TextBox();
+            this.txtsayi2 = new System.Windows.Forms.TextBox();
+            this.btntopla = new System.Windows.Forms.Button();
+            this.btncikar = new System.Windows.Forms.Button();
+            this.btncarp = new System.Windows.Forms.Button();
+            this.btnböl = new System.Windows.Forms.Button();
+            this.btnhesapla = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(35, 77);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "sayi1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(35, 124);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "sayi2";
+            // 
+            // txtsayi1
+            // 
+            this.txtsayi1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtsayi1.Location = new System.Drawing.Point(112, 74);
+            this.txtsayi1.Name = "txtsayi1";
+            this.txtsayi1.Size = new System.Drawing.Size(100, 31);
+            this.txtsayi1.TabIndex = 2;
+            // 
+            // txtsayi2
+            // 
+            this.txtsayi2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtsayi2.Location = new System.Drawing.Point(112, 124);
+            this.txtsayi2.Name = "txtsayi2";
+            this.txtsayi2.Size = new System.Drawing.Size(100, 31);
+            this.txtsayi2.TabIndex = 3;
+            // 
+            // btntopla
+            // 
+            this.btntopla.BackColor = System.Drawing.Color.Yellow;
+            this.btntopla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btntopla.Location = new System.Drawing.Point(387, 66);
+            this.btntopla.Name = "btntopla";
+            this.btntopla.Size = new System.Drawing.Size(75, 36);
+            this.btntopla.TabIndex = 4;
+            this.btntopla.Text = "topla";
+            this.btntopla.UseVisualStyleBackColor = false;
+            // 
+            // btncikar
+            // 
+            this.btncikar.BackColor = System.Drawing.Color.Lime;
+            this.btncikar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btncikar.Location = new System.Drawing.Point(511, 67);
+            this.btncikar.Name = "btncikar";
+            this.btncikar.Size = new System.Drawing.Size(75, 36);
+            this.btncikar.TabIndex = 5;
+            this.btncikar.Text = "çıkar";
+            this.btncikar.UseVisualStyleBackColor = false;
+            // 
+            // btncarp
+            // 
+            this.btncarp.BackColor = System.Drawing.Color.Red;
+            this.btncarp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btncarp.Location = new System.Drawing.Point(387, 113);
+            this.btncarp.Name = "btncarp";
+            this.btncarp.Size = new System.Drawing.Size(75, 36);
+            this.btncarp.TabIndex = 6;
+            this.btncarp.Text = "carp";
+            this.btncarp.UseVisualStyleBackColor = false;
+            // 
+            // btnböl
+            // 
+            this.btnböl.BackColor = System.Drawing.Color.Purple;
+            this.btnböl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnböl.Location = new System.Drawing.Point(511, 113);
+            this.btnböl.Name = "btnböl";
+            this.btnböl.Size = new System.Drawing.Size(75, 36);
+            this.btnböl.TabIndex = 7;
+            this.btnböl.Text = "böl";
+            this.btnböl.UseVisualStyleBackColor = false;
+            // 
+            // btnhesapla
+            // 
+            this.btnhesapla.BackColor = System.Drawing.Color.Teal;
+            this.btnhesapla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnhesapla.Location = new System.Drawing.Point(367, 195);
+            this.btnhesapla.Name = "btnhesapla";
+            this.btnhesapla.Size = new System.Drawing.Size(108, 45);
+            this.btnhesapla.TabIndex = 8;
+            this.btnhesapla.Text = "Hesapla";
+            this.btnhesapla.UseVisualStyleBackColor = false;
+            this.btnhesapla.Click += new System.EventHandler(this.btnhesapla_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnhesapla);
+            this.Controls.Add(this.btnböl);
+            this.Controls.Add(this.btncarp);
+            this.Controls.Add(this.btncikar);
+            this.Controls.Add(this.btntopla);
+            this.Controls.Add(this.txtsayi2);
+            this.Controls.Add(this.txtsayi1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtsayi1;
+        private System.Windows.Forms.TextBox txtsayi2;
+        private System.Windows.Forms.Button btntopla;
+        private System.Windows.Forms.Button btncikar;
+        private System.Windows.Forms.Button btncarp;
+        private System.Windows.Forms.Button btnböl;
+        private System.Windows.Forms.Button btnhesapla;
+    }
+}
+
